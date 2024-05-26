@@ -3,6 +3,7 @@ pytest
 allure-pytest
 webdriver-manager
 pytest-soft-asserts
+configparser
 
 
 #to run the requirements.txt run the below command

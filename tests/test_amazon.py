@@ -27,8 +27,7 @@ class TestAmazon:
 
         #click the first produuct and to add
 
-        print("have give 3 apple iphones")
-        time.sleep(5)
+        print("have give 3 list of apple iphones")
         product_page.add_to_cart()
         time.sleep(5)
         cart_page.click_cart_icon()
