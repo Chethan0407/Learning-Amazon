@@ -2,8 +2,9 @@ selenium
 pytest
 allure-pytest
 webdriver-manager
-pytest-soft-asserts
 configparser
+pytest-xdist
+
 
 
 #to run the requirements.txt run the below command
