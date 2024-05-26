@@ -10,6 +10,7 @@ class Loginpage(BasePage):
 
 
     def click_signin(self):
+
         self.click(self.SIGN_IN_BUTTON)
 
     def enter_email(self, email):

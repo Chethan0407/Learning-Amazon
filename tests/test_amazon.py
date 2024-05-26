@@ -5,9 +5,13 @@ from Pages.homePage import HomePage
 from  Pages.cartPage import CartPage
 from Pages.product_page import Product
 from Pages.searchResult import SearchResultPage
-
+import allure
 
 @pytest.mark.usefixtures("driver")
+
+
+@allure.feature('Amazon Feature')
+@allure.story('Search and Add to Cart')
 
 class TestAmazon:
     def test_search_and_add_to_cart(self, driver):
